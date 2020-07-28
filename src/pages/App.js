@@ -11,6 +11,9 @@ import { StyledApp, StyledComponent } from './styleApp';
 import Navbar from '../components/navbar';
 import Home from './home';
 import Starships from './starships';
+import Weapons from './weapons';
+import Characters from './characters';
+import Login from "./login";
 
 function App() {
   return (
@@ -20,6 +23,15 @@ function App() {
           <Navbar/>
           <StyledComponent>
             <Switch>
+              <Route path="/login">
+                <Login />
+              </Route>
+              <Route path="/Weapons">
+                <Weapons />
+              </Route>
+              <Route path="/characters">
+                <Characters />
+              </Route>
               <Route path="/starships">
                 <Starships />
               </Route>

@@ -5,12 +5,12 @@ import { color, font, fontWeight } from '../_utils/branding'
 const Text = ({
 	children,
 	classname,
-	textcolor = color.black,
+	textcolor = color.blue,
 	italic = false,
 	tag,
 	upper = false,
 	weight = fontWeight.base,
-	size = font.base
+	size = font.base,
 }) => (
 	<StyledText
 		as={tag}

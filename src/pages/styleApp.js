@@ -11,6 +11,7 @@ const StyledComponent = styled.div`
   align-items: center;
   justify-content: center;
   color: ${color.blue};
+
 `
 
 export { StyledApp, StyledComponent }
